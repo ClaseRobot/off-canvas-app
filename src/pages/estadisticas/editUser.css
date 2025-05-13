@@ -1,0 +1,78 @@
+/* Estilos para el popup de edicion de usuario */
+
+.card-edit-user {
+  color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  display: none;
+  background: blueviolet;
+  border-radius: 16px  16px 16px 16px;
+  width: 376px;
+  height: 160px;
+  box-shadow: 2px 7px 13px 0px rgba(0,0,0,0.2);
+  overflow: hidden;     
+  border-color: #000000;
+}
+
+.card-body{
+  background-color: #fffcfc;
+  padding: 24px; 
+}
+
+.card-close-btn {
+  color: #000000;
+}
+
+.card-title{
+  color: #000000;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif; 
+  margin: 0px; 
+  padding: 0px; 
+}
+
+.card-text{
+  line-height: 1.4;
+  margin: 10px 0px 0px 0px; 
+  font-size: 17px;
+  color: #000000;
+}
+
+.card-cancel-btn, .card-acept-btn {
+  border: none;
+  border-radius: 15px;
+  font-family: poppins;
+  font-weight: bold;
+  color: #1a171a;
+  font-size: 12px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-right: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.card-cancel-btn {
+  background: #f24660;
+}
+
+.card-acept-btn {
+  background: #2ec766;
+}
+
+.card-acept-btn:hover {
+  background: #33d66c;
+  text-decoration: none;
+}
+
+.card-cancel-btn:hover {
+  background: #ed5f6b;
+  text-decoration: none;
+}
+
+.isActive {
+  display: block;
+}

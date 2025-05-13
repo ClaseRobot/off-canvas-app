@@ -1,0 +1,33 @@
+/* Estilos para card reutilizable */
+
+/* .card {
+    display: flex; 
+    flex-direction: column; 
+    border-radius: 16px  16px 16px 16px;
+    width: 376px;
+    height: 133px;
+    box-shadow: 2px 7px 13px 0px rgba(0,0,0,0.2);
+    overflow: hidden;     
+    border-color: #000000;
+} */
+.card-body{
+    background-color: #fffcfc;
+    flex-grow: 1;
+    padding: 24px; 
+}
+
+.card-title{
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0px; 
+    padding: 0px; 
+}
+
+.card-text{
+    line-height: 1.4;
+    margin: 10px 0px 0px 0px; 
+    font-size: 17px;
+    color: #000000;
+}
